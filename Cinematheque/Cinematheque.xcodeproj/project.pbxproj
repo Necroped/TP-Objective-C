@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFBF9CB41A67EBE30083B71A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBF9CB31A67EBE30083B71A /* Foundation.framework */; };
+		DFBF9CB61A67EBE30083B71A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBF9CB51A67EBE30083B71A /* CoreGraphics.framework */; };
+		DFBF9CB81A67EBE30083B71A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBF9CB71A67EBE30083B71A /* UIKit.framework */; };
+		DFBF9CBE1A67EBE30083B71A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFBF9CBC1A67EBE30083B71A /* InfoPlist.strings */; };
+		DFBF9CC01A67EBE30083B71A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CBF1A67EBE30083B71A /* main.m */; };
+		DFBF9CC41A67EBE30083B71A /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CC31A67EBE30083B71A /* CTAppDelegate.m */; };
+		DFBF9CC61A67EBE30083B71A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFBF9CC51A67EBE30083B71A /* Images.xcassets */; };
+		DFBF9CCD1A67EBE30083B71A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBF9CCC1A67EBE30083B71A /* XCTest.framework */; };
+		DFBF9CCE1A67EBE30083B71A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBF9CB31A67EBE30083B71A /* Foundation.framework */; };
+		DFBF9CCF1A67EBE30083B71A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBF9CB71A67EBE30083B71A /* UIKit.framework */; };
+		DFBF9CD71A67EBE30083B71A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFBF9CD51A67EBE30083B71A /* InfoPlist.strings */; };
+		DFBF9CD91A67EBE30083B71A /* CinemathequeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CD81A67EBE30083B71A /* CinemathequeTests.m */; };
+		DFBF9CE31A67EC4C0083B71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBF9CE21A67EC4C0083B71A /* Main.storyboard */; };
+		DFBF9CEC1A67ED2D0083B71A /* CINCinematheque.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CE51A67ED2D0083B71A /* CINCinematheque.m */; };
+		DFBF9CED1A67ED2D0083B71A /* CINMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CE71A67ED2D0083B71A /* CINMovie.m */; };
+		DFBF9CEE1A67ED2D0083B71A /* CINPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CE91A67ED2D0083B71A /* CINPeople.m */; };
+		DFBF9CEF1A67ED2D0083B71A /* NSDate+Components.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CEB1A67ED2D0083B71A /* NSDate+Components.m */; };
+		DFBF9CF21A67EE610083B71A /* MovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CF11A67EE610083B71A /* MovieTableViewController.m */; };
+		DFBF9CF51A67EE810083B71A /* MovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CF41A67EE810083B71A /* MovieViewController.m */; };
+		DFBF9CF81A67EE970083B71A /* PeopleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBF9CF71A67EE970083B71A /* PeopleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFBF9CD01A67EBE30083B71A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFBF9CA81A67EBE30083B71A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFBF9CAF1A67EBE30083B71A;
+			remoteInfo = Cinematheque;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFBF9CB01A67EBE30083B71A /* Cinematheque.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cinematheque.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF9CB31A67EBE30083B71A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFBF9CB51A67EBE30083B71A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFBF9CB71A67EBE30083B71A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFBF9CBB1A67EBE30083B71A /* Cinematheque-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Cinematheque-Info.plist"; sourceTree = "<group>"; };
+		DFBF9CBD1A67EBE30083B71A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFBF9CBF1A67EBE30083B71A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFBF9CC11A67EBE30083B71A /* Cinematheque-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Cinematheque-Prefix.pch"; sourceTree = "<group>"; };
+		DFBF9CC21A67EBE30083B71A /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
+		DFBF9CC31A67EBE30083B71A /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
+		DFBF9CC51A67EBE30083B71A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFBF9CCB1A67EBE30083B71A /* CinemathequeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemathequeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBF9CCC1A67EBE30083B71A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DFBF9CD41A67EBE30083B71A /* CinemathequeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CinemathequeTests-Info.plist"; sourceTree = "<group>"; };
+		DFBF9CD61A67EBE30083B71A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFBF9CD81A67EBE30083B71A /* CinemathequeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CinemathequeTests.m; sourceTree = "<group>"; };
+		DFBF9CE21A67EC4C0083B71A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DFBF9CE41A67ED2D0083B71A /* CINCinematheque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CINCinematheque.h; path = ../CINCinematheque.h; sourceTree = "<group>"; };
+		DFBF9CE51A67ED2D0083B71A /* CINCinematheque.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CINCinematheque.m; path = ../CINCinematheque.m; sourceTree = "<group>"; };
+		DFBF9CE61A67ED2D0083B71A /* CINMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CINMovie.h; path = ../CINMovie.h; sourceTree = "<group>"; };
+		DFBF9CE71A67ED2D0083B71A /* CINMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CINMovie.m; path = ../CINMovie.m; sourceTree = "<group>"; };
+		DFBF9CE81A67ED2D0083B71A /* CINPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CINPeople.h; path = ../CINPeople.h; sourceTree = "<group>"; };
+		DFBF9CE91A67ED2D0083B71A /* CINPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CINPeople.m; path = ../CINPeople.m; sourceTree = "<group>"; };
+		DFBF9CEA1A67ED2D0083B71A /* NSDate+Components.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+Components.h"; path = "../NSDate+Components.h"; sourceTree = "<group>"; };
+		DFBF9CEB1A67ED2D0083B71A /* NSDate+Components.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Components.m"; path = "../NSDate+Components.m"; sourceTree = "<group>"; };
+		DFBF9CF01A67EE610083B71A /* MovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieTableViewController.h; sourceTree = "<group>"; };
+		DFBF9CF11A67EE610083B71A /* MovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTableViewController.m; sourceTree = "<group>"; };
+		DFBF9CF31A67EE810083B71A /* MovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieViewController.h; sourceTree = "<group>"; };
+		DFBF9CF41A67EE810083B71A /* MovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieViewController.m; sourceTree = "<group>"; };
+		DFBF9CF61A67EE970083B71A /* PeopleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleViewController.h; sourceTree = "<group>"; };
+		DFBF9CF71A67EE970083B71A /* PeopleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFBF9CAD1A67EBE30083B71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF9CB61A67EBE30083B71A /* CoreGraphics.framework in Frameworks */,
+				DFBF9CB81A67EBE30083B71A /* UIKit.framework in Frameworks */,
+				DFBF9CB41A67EBE30083B71A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF9CC81A67EBE30083B71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF9CCD1A67EBE30083B71A /* XCTest.framework in Frameworks */,
+				DFBF9CCF1A67EBE30083B71A /* UIKit.framework in Frameworks */,
+				DFBF9CCE1A67EBE30083B71A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFBF9CA71A67EBE30083B71A = {
+			isa = PBXGroup;
+			children = (
+				DFBF9CB91A67EBE30083B71A /* Cinematheque */,
+				DFBF9CD21A67EBE30083B71A /* CinemathequeTests */,
+				DFBF9CB21A67EBE30083B71A /* Frameworks */,
+				DFBF9CB11A67EBE30083B71A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFBF9CB11A67EBE30083B71A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF9CB01A67EBE30083B71A /* Cinematheque.app */,
+				DFBF9CCB1A67EBE30083B71A /* CinemathequeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFBF9CB21A67EBE30083B71A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF9CB31A67EBE30083B71A /* Foundation.framework */,
+				DFBF9CB51A67EBE30083B71A /* CoreGraphics.framework */,
+				DFBF9CB71A67EBE30083B71A /* UIKit.framework */,
+				DFBF9CCC1A67EBE30083B71A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFBF9CB91A67EBE30083B71A /* Cinematheque */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF9CC21A67EBE30083B71A /* CTAppDelegate.h */,
+				DFBF9CC31A67EBE30083B71A /* CTAppDelegate.m */,
+				DFBF9CE41A67ED2D0083B71A /* CINCinematheque.h */,
+				DFBF9CE51A67ED2D0083B71A /* CINCinematheque.m */,
+				DFBF9CE61A67ED2D0083B71A /* CINMovie.h */,
+				DFBF9CE71A67ED2D0083B71A /* CINMovie.m */,
+				DFBF9CE81A67ED2D0083B71A /* CINPeople.h */,
+				DFBF9CE91A67ED2D0083B71A /* CINPeople.m */,
+				DFBF9CEA1A67ED2D0083B71A /* NSDate+Components.h */,
+				DFBF9CEB1A67ED2D0083B71A /* NSDate+Components.m */,
+				DFBF9CF01A67EE610083B71A /* MovieTableViewController.h */,
+				DFBF9CF11A67EE610083B71A /* MovieTableViewController.m */,
+				DFBF9CF31A67EE810083B71A /* MovieViewController.h */,
+				DFBF9CF41A67EE810083B71A /* MovieViewController.m */,
+				DFBF9CF61A67EE970083B71A /* PeopleViewController.h */,
+				DFBF9CF71A67EE970083B71A /* PeopleViewController.m */,
+				DFBF9CC51A67EBE30083B71A /* Images.xcassets */,
+				DFBF9CE21A67EC4C0083B71A /* Main.storyboard */,
+				DFBF9CBA1A67EBE30083B71A /* Supporting Files */,
+			);
+			path = Cinematheque;
+			sourceTree = "<group>";
+		};
+		DFBF9CBA1A67EBE30083B71A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF9CBB1A67EBE30083B71A /* Cinematheque-Info.plist */,
+				DFBF9CBC1A67EBE30083B71A /* InfoPlist.strings */,
+				DFBF9CBF1A67EBE30083B71A /* main.m */,
+				DFBF9CC11A67EBE30083B71A /* Cinematheque-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFBF9CD21A67EBE30083B71A /* CinemathequeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF9CD81A67EBE30083B71A /* CinemathequeTests.m */,
+				DFBF9CD31A67EBE30083B71A /* Supporting Files */,
+			);
+			path = CinemathequeTests;
+			sourceTree = "<group>";
+		};
+		DFBF9CD31A67EBE30083B71A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFBF9CD41A67EBE30083B71A /* CinemathequeTests-Info.plist */,
+				DFBF9CD51A67EBE30083B71A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFBF9CAF1A67EBE30083B71A /* Cinematheque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBF9CDC1A67EBE30083B71A /* Build configuration list for PBXNativeTarget "Cinematheque" */;
+			buildPhases = (
+				DFBF9CAC1A67EBE30083B71A /* Sources */,
+				DFBF9CAD1A67EBE30083B71A /* Frameworks */,
+				DFBF9CAE1A67EBE30083B71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cinematheque;
+			productName = Cinematheque;
+			productReference = DFBF9CB01A67EBE30083B71A /* Cinematheque.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFBF9CCA1A67EBE30083B71A /* CinemathequeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFBF9CDF1A67EBE30083B71A /* Build configuration list for PBXNativeTarget "CinemathequeTests" */;
+			buildPhases = (
+				DFBF9CC71A67EBE30083B71A /* Sources */,
+				DFBF9CC81A67EBE30083B71A /* Frameworks */,
+				DFBF9CC91A67EBE30083B71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFBF9CD11A67EBE30083B71A /* PBXTargetDependency */,
+			);
+			name = CinemathequeTests;
+			productName = CinemathequeTests;
+			productReference = DFBF9CCB1A67EBE30083B71A /* CinemathequeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFBF9CA81A67EBE30083B71A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = formation;
+				TargetAttributes = {
+					DFBF9CCA1A67EBE30083B71A = {
+						TestTargetID = DFBF9CAF1A67EBE30083B71A;
+					};
+				};
+			};
+			buildConfigurationList = DFBF9CAB1A67EBE30083B71A /* Build configuration list for PBXProject "Cinematheque" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFBF9CA71A67EBE30083B71A;
+			productRefGroup = DFBF9CB11A67EBE30083B71A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFBF9CAF1A67EBE30083B71A /* Cinematheque */,
+				DFBF9CCA1A67EBE30083B71A /* CinemathequeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFBF9CAE1A67EBE30083B71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF9CE31A67EC4C0083B71A /* Main.storyboard in Resources */,
+				DFBF9CBE1A67EBE30083B71A /* InfoPlist.strings in Resources */,
+				DFBF9CC61A67EBE30083B71A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF9CC91A67EBE30083B71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF9CD71A67EBE30083B71A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFBF9CAC1A67EBE30083B71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF9CC01A67EBE30083B71A /* main.m in Sources */,
+				DFBF9CEE1A67ED2D0083B71A /* CINPeople.m in Sources */,
+				DFBF9CEF1A67ED2D0083B71A /* NSDate+Components.m in Sources */,
+				DFBF9CF81A67EE970083B71A /* PeopleViewController.m in Sources */,
+				DFBF9CF21A67EE610083B71A /* MovieTableViewController.m in Sources */,
+				DFBF9CC41A67EBE30083B71A /* CTAppDelegate.m in Sources */,
+				DFBF9CEC1A67ED2D0083B71A /* CINCinematheque.m in Sources */,
+				DFBF9CED1A67ED2D0083B71A /* CINMovie.m in Sources */,
+				DFBF9CF51A67EE810083B71A /* MovieViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFBF9CC71A67EBE30083B71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFBF9CD91A67EBE30083B71A /* CinemathequeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFBF9CD11A67EBE30083B71A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFBF9CAF1A67EBE30083B71A /* Cinematheque */;
+			targetProxy = DFBF9CD01A67EBE30083B71A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFBF9CBC1A67EBE30083B71A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFBF9CBD1A67EBE30083B71A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFBF9CD51A67EBE30083B71A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFBF9CD61A67EBE30083B71A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFBF9CDA1A67EBE30083B71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFBF9CDB1A67EBE30083B71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFBF9CDD1A67EBE30083B71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinematheque/Cinematheque-Prefix.pch";
+				INFOPLIST_FILE = "Cinematheque/Cinematheque-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFBF9CDE1A67EBE30083B71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinematheque/Cinematheque-Prefix.pch";
+				INFOPLIST_FILE = "Cinematheque/Cinematheque-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFBF9CE01A67EBE30083B71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cinematheque.app/Cinematheque";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinematheque/Cinematheque-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CinemathequeTests/CinemathequeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DFBF9CE11A67EBE30083B71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Cinematheque.app/Cinematheque";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Cinematheque/Cinematheque-Prefix.pch";
+				INFOPLIST_FILE = "CinemathequeTests/CinemathequeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFBF9CAB1A67EBE30083B71A /* Build configuration list for PBXProject "Cinematheque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBF9CDA1A67EBE30083B71A /* Debug */,
+				DFBF9CDB1A67EBE30083B71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFBF9CDC1A67EBE30083B71A /* Build configuration list for PBXNativeTarget "Cinematheque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBF9CDD1A67EBE30083B71A /* Debug */,
+				DFBF9CDE1A67EBE30083B71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFBF9CDF1A67EBE30083B71A /* Build configuration list for PBXNativeTarget "CinemathequeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFBF9CE01A67EBE30083B71A /* Debug */,
+				DFBF9CE11A67EBE30083B71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFBF9CA81A67EBE30083B71A /* Project object */;
+}

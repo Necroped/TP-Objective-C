@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFF41CE01A67C12D006417BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF41CDF1A67C12D006417BB /* Foundation.framework */; };
+		DFF41CE21A67C12D006417BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF41CE11A67C12D006417BB /* CoreGraphics.framework */; };
+		DFF41CE41A67C12D006417BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF41CE31A67C12D006417BB /* UIKit.framework */; };
+		DFF41CEA1A67C12D006417BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFF41CE81A67C12D006417BB /* InfoPlist.strings */; };
+		DFF41CEC1A67C12D006417BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF41CEB1A67C12D006417BB /* main.m */; };
+		DFF41CF01A67C12D006417BB /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF41CEF1A67C12D006417BB /* LTAppDelegate.m */; };
+		DFF41CF31A67C12D006417BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFF41CF11A67C12D006417BB /* Main.storyboard */; };
+		DFF41CF61A67C12D006417BB /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF41CF51A67C12D006417BB /* LTViewController.m */; };
+		DFF41CF81A67C12D006417BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFF41CF71A67C12D006417BB /* Images.xcassets */; };
+		DFF41CFF1A67C12D006417BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF41CFE1A67C12D006417BB /* XCTest.framework */; };
+		DFF41D001A67C12D006417BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF41CDF1A67C12D006417BB /* Foundation.framework */; };
+		DFF41D011A67C12D006417BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF41CE31A67C12D006417BB /* UIKit.framework */; };
+		DFF41D091A67C12D006417BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DFF41D071A67C12D006417BB /* InfoPlist.strings */; };
+		DFF41D0B1A67C12D006417BB /* Lampe_torcheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF41D0A1A67C12D006417BB /* Lampe_torcheTests.m */; };
+		DFF41D161A67C3A8006417BB /* LTTorchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFF41D151A67C3A8006417BB /* LTTorchViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFF41D021A67C12D006417BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFF41CD41A67C12D006417BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFF41CDB1A67C12D006417BB;
+			remoteInfo = "Lampe torche";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFF41CDC1A67C12D006417BB /* Lampe torche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lampe torche.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF41CDF1A67C12D006417BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFF41CE11A67C12D006417BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFF41CE31A67C12D006417BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFF41CE71A67C12D006417BB /* Lampe torche-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lampe torche-Info.plist"; sourceTree = "<group>"; };
+		DFF41CE91A67C12D006417BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFF41CEB1A67C12D006417BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFF41CED1A67C12D006417BB /* Lampe torche-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lampe torche-Prefix.pch"; sourceTree = "<group>"; };
+		DFF41CEE1A67C12D006417BB /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		DFF41CEF1A67C12D006417BB /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		DFF41CF21A67C12D006417BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFF41CF41A67C12D006417BB /* LTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTViewController.h; sourceTree = "<group>"; };
+		DFF41CF51A67C12D006417BB /* LTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
+		DFF41CF71A67C12D006417BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DFF41CFD1A67C12D006417BB /* Lampe torcheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lampe torcheTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF41CFE1A67C12D006417BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DFF41D061A67C12D006417BB /* Lampe torcheTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lampe torcheTests-Info.plist"; sourceTree = "<group>"; };
+		DFF41D081A67C12D006417BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DFF41D0A1A67C12D006417BB /* Lampe_torcheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lampe_torcheTests.m; sourceTree = "<group>"; };
+		DFF41D141A67C3A8006417BB /* LTTorchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTorchViewController.h; sourceTree = "<group>"; };
+		DFF41D151A67C3A8006417BB /* LTTorchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTorchViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFF41CD91A67C12D006417BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF41CE21A67C12D006417BB /* CoreGraphics.framework in Frameworks */,
+				DFF41CE41A67C12D006417BB /* UIKit.framework in Frameworks */,
+				DFF41CE01A67C12D006417BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF41CFA1A67C12D006417BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF41CFF1A67C12D006417BB /* XCTest.framework in Frameworks */,
+				DFF41D011A67C12D006417BB /* UIKit.framework in Frameworks */,
+				DFF41D001A67C12D006417BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFF41CD31A67C12D006417BB = {
+			isa = PBXGroup;
+			children = (
+				DFF41CE51A67C12D006417BB /* Lampe torche */,
+				DFF41D041A67C12D006417BB /* Lampe torcheTests */,
+				DFF41CDE1A67C12D006417BB /* Frameworks */,
+				DFF41CDD1A67C12D006417BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFF41CDD1A67C12D006417BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFF41CDC1A67C12D006417BB /* Lampe torche.app */,
+				DFF41CFD1A67C12D006417BB /* Lampe torcheTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFF41CDE1A67C12D006417BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFF41CDF1A67C12D006417BB /* Foundation.framework */,
+				DFF41CE11A67C12D006417BB /* CoreGraphics.framework */,
+				DFF41CE31A67C12D006417BB /* UIKit.framework */,
+				DFF41CFE1A67C12D006417BB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFF41CE51A67C12D006417BB /* Lampe torche */ = {
+			isa = PBXGroup;
+			children = (
+				DFF41CEE1A67C12D006417BB /* LTAppDelegate.h */,
+				DFF41CEF1A67C12D006417BB /* LTAppDelegate.m */,
+				DFF41CF11A67C12D006417BB /* Main.storyboard */,
+				DFF41CF41A67C12D006417BB /* LTViewController.h */,
+				DFF41CF51A67C12D006417BB /* LTViewController.m */,
+				DFF41D141A67C3A8006417BB /* LTTorchViewController.h */,
+				DFF41D151A67C3A8006417BB /* LTTorchViewController.m */,
+				DFF41CF71A67C12D006417BB /* Images.xcassets */,
+				DFF41CE61A67C12D006417BB /* Supporting Files */,
+			);
+			path = "Lampe torche";
+			sourceTree = "<group>";
+		};
+		DFF41CE61A67C12D006417BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF41CE71A67C12D006417BB /* Lampe torche-Info.plist */,
+				DFF41CE81A67C12D006417BB /* InfoPlist.strings */,
+				DFF41CEB1A67C12D006417BB /* main.m */,
+				DFF41CED1A67C12D006417BB /* Lampe torche-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFF41D041A67C12D006417BB /* Lampe torcheTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFF41D0A1A67C12D006417BB /* Lampe_torcheTests.m */,
+				DFF41D051A67C12D006417BB /* Supporting Files */,
+			);
+			path = "Lampe torcheTests";
+			sourceTree = "<group>";
+		};
+		DFF41D051A67C12D006417BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFF41D061A67C12D006417BB /* Lampe torcheTests-Info.plist */,
+				DFF41D071A67C12D006417BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFF41CDB1A67C12D006417BB /* Lampe torche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF41D0E1A67C12D006417BB /* Build configuration list for PBXNativeTarget "Lampe torche" */;
+			buildPhases = (
+				DFF41CD81A67C12D006417BB /* Sources */,
+				DFF41CD91A67C12D006417BB /* Frameworks */,
+				DFF41CDA1A67C12D006417BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lampe torche";
+			productName = "Lampe torche";
+			productReference = DFF41CDC1A67C12D006417BB /* Lampe torche.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFF41CFC1A67C12D006417BB /* Lampe torcheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFF41D111A67C12D006417BB /* Build configuration list for PBXNativeTarget "Lampe torcheTests" */;
+			buildPhases = (
+				DFF41CF91A67C12D006417BB /* Sources */,
+				DFF41CFA1A67C12D006417BB /* Frameworks */,
+				DFF41CFB1A67C12D006417BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFF41D031A67C12D006417BB /* PBXTargetDependency */,
+			);
+			name = "Lampe torcheTests";
+			productName = "Lampe torcheTests";
+			productReference = DFF41CFD1A67C12D006417BB /* Lampe torcheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFF41CD41A67C12D006417BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = formation;
+				TargetAttributes = {
+					DFF41CFC1A67C12D006417BB = {
+						TestTargetID = DFF41CDB1A67C12D006417BB;
+					};
+				};
+			};
+			buildConfigurationList = DFF41CD71A67C12D006417BB /* Build configuration list for PBXProject "Lampe torche" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFF41CD31A67C12D006417BB;
+			productRefGroup = DFF41CDD1A67C12D006417BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFF41CDB1A67C12D006417BB /* Lampe torche */,
+				DFF41CFC1A67C12D006417BB /* Lampe torcheTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFF41CDA1A67C12D006417BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF41CF81A67C12D006417BB /* Images.xcassets in Resources */,
+				DFF41CEA1A67C12D006417BB /* InfoPlist.strings in Resources */,
+				DFF41CF31A67C12D006417BB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF41CFB1A67C12D006417BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF41D091A67C12D006417BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFF41CD81A67C12D006417BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF41CF01A67C12D006417BB /* LTAppDelegate.m in Sources */,
+				DFF41D161A67C3A8006417BB /* LTTorchViewController.m in Sources */,
+				DFF41CEC1A67C12D006417BB /* main.m in Sources */,
+				DFF41CF61A67C12D006417BB /* LTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFF41CF91A67C12D006417BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF41D0B1A67C12D006417BB /* Lampe_torcheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFF41D031A67C12D006417BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFF41CDB1A67C12D006417BB /* Lampe torche */;
+			targetProxy = DFF41D021A67C12D006417BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFF41CE81A67C12D006417BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF41CE91A67C12D006417BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DFF41CF11A67C12D006417BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF41CF21A67C12D006417BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFF41D071A67C12D006417BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFF41D081A67C12D006417BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFF41D0C1A67C12D006417BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFF41D0D1A67C12D006417BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFF41D0F1A67C12D006417BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lampe torche/Lampe torche-Prefix.pch";
+				INFOPLIST_FILE = "Lampe torche/Lampe torche-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DFF41D101A67C12D006417BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lampe torche/Lampe torche-Prefix.pch";
+				INFOPLIST_FILE = "Lampe torche/Lampe torche-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DFF41D121A67C12D006417BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lampe torche.app/Lampe torche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lampe torche/Lampe torche-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lampe torcheTests/Lampe torcheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DFF41D131A67C12D006417BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lampe torche.app/Lampe torche";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lampe torche/Lampe torche-Prefix.pch";
+				INFOPLIST_FILE = "Lampe torcheTests/Lampe torcheTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFF41CD71A67C12D006417BB /* Build configuration list for PBXProject "Lampe torche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF41D0C1A67C12D006417BB /* Debug */,
+				DFF41D0D1A67C12D006417BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFF41D0E1A67C12D006417BB /* Build configuration list for PBXNativeTarget "Lampe torche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF41D0F1A67C12D006417BB /* Debug */,
+				DFF41D101A67C12D006417BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFF41D111A67C12D006417BB /* Build configuration list for PBXNativeTarget "Lampe torcheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFF41D121A67C12D006417BB /* Debug */,
+				DFF41D131A67C12D006417BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFF41CD41A67C12D006417BB /* Project object */;
+}
